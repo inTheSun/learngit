@@ -31,7 +31,10 @@ module.exports = function config(args) {
     if (cfg.extend) {
         const extPath = path.resolve(cfg.extend);
         console.log(111222);
-        console.log(extPath);
+        console.log(envPath);
+	console.log(extPath);
+	console.log(extend);
+        console.log(require(extPath));
         try {
             // 深复制
             extend(true, cfg, require(extPath));
