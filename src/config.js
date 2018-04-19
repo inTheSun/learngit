@@ -30,10 +30,8 @@ module.exports = function config(args) {
     // 如果允许增量配置，则继承增量配置
     if (cfg.extend) {
         const extPath = path.resolve(cfg.extend);
-        console.log(111222);
-        console.log(envPath);
-	console.log(extPath);
-	console.log(extend);
+        console.log(extPath);
+        console.log(extend);
         console.log(require(extPath));
         try {
             // 深复制

@@ -1,6 +1,5 @@
-config/server.json
+# config/server.json
 
-.DS_Store
 .idea/
 /node_modules
 npm-debug.*
