@@ -7,6 +7,7 @@ module.exports = {
     vhost: {
         "127.0.0.1": "swan",
         "localhost": "swan",
+        '47.98.191.220': 'swan'
         // "feclub.cn": "blog",
         // "localhost/test": "test",
         // "0.0.0.0": "iblog"

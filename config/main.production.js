@@ -6,9 +6,6 @@ module.exports = {
   // vhost配置
   vhost: {
     'grace.wilee.me': 'demo',
-    'feclub.cn': 'blog',
-    'localhost/test': 'test',
-    'iblog.wilee.me': 'iblog',
     '47.98.191.220': 'swan'
   },
 
