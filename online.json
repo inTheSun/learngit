@@ -2,6 +2,6 @@
     "apps": [{
         "name": "app",
         "script": "./bin/server.js --env=production",
-	"cwd": "/root/learngit"
+	    "cwd": "/root/learngit"
     }]
 }
