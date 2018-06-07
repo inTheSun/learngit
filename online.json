@@ -1,7 +1,7 @@
 {
     "apps": [{
         "name": "myApp",
-        "script": "node bin/server.js --env=production",
+        "script": "bin/server.js --env=production",
         "instances" : "max",
         "exec_mode" : "cluster" 
     }]
