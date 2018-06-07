@@ -10,7 +10,8 @@
     "test": "mocha",
     "dev": "./node_modules/.bin/nodemon bin/server.js",
     "start": "node bin/server.js --env=production",
-    "pm2": "pm2 start online.json"
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2json" : "pm2 start online.json"
   },
   "repository": {
     "type": "git",

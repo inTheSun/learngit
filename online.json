@@ -1,7 +1,10 @@
 {
     "apps": [{
-        "name": "app",
+        "name": "myFistApp",
         "script": "./bin/server.js --env=production",
-	    "cwd": "/root/learngit"
+        "args": "--env=production",
+        "env_production": {
+            "NODE_ENV": "production"
+        }
     }]
 }
