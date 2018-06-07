@@ -5,9 +5,10 @@ process.env.DEBUG = process.env.DEBUG || "koa-grace-error:*";
 module.exports = {
     // vhost配置
     vhost: {
-        demo: "demo",
+        "demo": "demo",
         "47.98.191.220": "swan",
-        localhost: "swan"
+        "localhost": "swan",
+        "mrsswan.cn":"swan"
     },
 
     // router配置
@@ -37,7 +38,7 @@ module.exports = {
     // 站点相关的配置
     site: {
         env: "production",
-        port: 3000,
+        port: 80,
         hostname: "production"
     },
 
@@ -45,8 +46,8 @@ module.exports = {
     constant: {
         cdn: "",
         domain: {
-            demo: "http://127.0.0.1:3000",
-            swan: "http://47.98.191.220:3000"
+            demo: "http://127.0.0.1:80",
+            swan: "http://47.98.191.220:80"
         },
         token: ""
     },

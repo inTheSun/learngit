@@ -7,7 +7,8 @@ module.exports = {
     vhost: {
         "127.0.0.1": "swan",
         "localhost": "swan",
-        '47.98.191.220': 'swan'
+        '47.98.191.220': 'swan',
+        "mrsswan.cn":"swan"
         // "feclub.cn": "blog",
         // "localhost/test": "test",
         // "0.0.0.0": "iblog"
@@ -40,7 +41,7 @@ module.exports = {
     // 站点相关的配置
     site: {
         env: "development",
-        port: 3000,
+        port: 80,
         hostname: "localhost"
     },
 
