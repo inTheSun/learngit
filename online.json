@@ -1,6 +1,7 @@
 {
     "apps": [{
         "name": "app",
-        "script": "/root/learngit/bin/server.js --env=production"
+        "script": "./bin/server.js --env=production",
+	"cwd": "/root/learngit"
     }]
 }
