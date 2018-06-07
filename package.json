@@ -9,7 +9,8 @@
   "scripts": {
     "test": "mocha",
     "dev": "./node_modules/.bin/nodemon bin/server.js",
-    "start": "node bin/server.js --env=production"
+    "start": "node bin/server.js --env=production",
+    "pm2": "pm2 start online.json"
   },
   "repository": {
     "type": "git",
