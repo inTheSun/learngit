@@ -1,8 +1,6 @@
 {
     "apps": [{
-        "name": "myApp",
-        "script": "/root/learngit/bin/server.js --env=production",
-        "instances" : "max",
-        "exec_mode" : "cluster" 
+        "name": "app",
+        "script": "/root/learngit/bin/server.js --env=production"
     }]
 }
