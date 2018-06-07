@@ -1,7 +1,7 @@
 {
     "apps": [{
         "name": "myFistApp",
-        "script": "./bin/server.js --env=production",
+        "script": "./bin/server.js",
         "args": "--env=production",
         "env_production": {
             "NODE_ENV": "production"
