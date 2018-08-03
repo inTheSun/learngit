@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>香港天鹅座</title>
+    <meta name="keywords" content="天鹅座,香港天鹅座,高级婚宴定制">
+    <meta name="description" content="香港天鹅座高级婚宴定制" />
+    <link rel="stylesheet" href="/swan/static/css/font.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/swan/static/css/reset.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js "></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js "></script>
+    <![endif]-->
+    {% block headscript %} 
+    {% endblock %}
+</head>
+
+<body>
+    {% block includeheader %} 
+    {% include './header.html' %} 
+    {% endblock %}
+    
+    {% block body %} 
+    {% endblock %}
+
+    {% block includefooter %} 
+    {% include './footer.html' %} 
+    {% endblock %}
+
+    <script src="/swan/static/js/jquery.min.js"></script>
+    {% block footerscript %} 
+    {% endblock %}
+</body>
+</html>

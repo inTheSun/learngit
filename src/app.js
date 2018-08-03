@@ -10,6 +10,8 @@ const app = new koa();
 // 配置cookie加密的key
 app.keys = ['GRACEJS'];
 
+//处理自己额外的逻辑
+app.use(Middles.checkauth());
 // 响应数据提压缩策略，如：gzip
 app.use(Middles.compress());
 

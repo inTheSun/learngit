@@ -8,7 +8,7 @@ module.exports = {
         "127.0.0.1": "swan",
         "localhost": "swan",
         '47.98.191.220': 'swan',
-        "mrsswan.cn":"swan"
+        "mrsswan.cn": "swan"
         // "feclub.cn": "blog",
         // "localhost/test": "test",
         // "0.0.0.0": "iblog"
@@ -41,7 +41,7 @@ module.exports = {
     // 站点相关的配置
     site: {
         env: "development",
-        port: 80,
+        port: 3000,
         hostname: "localhost"
     },
 
@@ -68,7 +68,7 @@ module.exports = {
         // 如果设置jump为false，则当直接访问域名时不重定向到default_path
         default_jump: {
             demo: false,
-            swan:false
+            swan: false
         }
     },
 
@@ -84,7 +84,8 @@ module.exports = {
 
     // 模板引擎配置，默认：swiger
     template: {
-        iblog: "nunjucks"
+        iblog: "nunjucks",
+        swan: "nunjucks",
     },
 
     // 上传文件配置
