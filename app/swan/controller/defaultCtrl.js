@@ -1,5 +1,5 @@
 module.exports = async function () {
-	console.log('this is a base controller!')
+	// console.log('this is a base controller!')
 }
 
 // 设置为非路由

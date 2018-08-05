@@ -8,7 +8,7 @@ exports.index = async function () {
 	  })
    * 然后在 this.backData.repoInfo 中就可以拿到返回参数
    */
-    console.log(222);
+    // console.log(222);
     await this.render('home', {
         title: 'Hello , Grace!'
     });

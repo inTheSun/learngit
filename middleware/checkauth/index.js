@@ -30,7 +30,7 @@ module.exports = function () {
         }else{
             ctx.state.menuType = "home"
         }
-        console.log(ctx.state.menuType);
+        // console.log(ctx.state.menuType);
         await next()
     }
 }
