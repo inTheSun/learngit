@@ -9,7 +9,7 @@ module.exports = {
         "47.98.191.220": "swan",
         "localhost": "swan",
         "mrsswan.cn":"swan",
-        // "www.mrsswan.cn":"swan",
+        "www.mrsswan.cn":"swan"
     },
 
     // router配置
