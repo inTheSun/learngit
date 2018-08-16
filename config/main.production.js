@@ -8,7 +8,8 @@ module.exports = {
         "demo": "demo",
         "47.98.191.220": "swan",
         "localhost": "swan",
-        "mrsswan.cn":"swan"
+        "mrsswan.cn":"swan",
+        "www.mrsswan.cn":"swan",
     },
 
     // router配置
@@ -38,7 +39,7 @@ module.exports = {
     // 站点相关的配置
     site: {
         env: "production",
-        port: 80,
+        port: 3000,
         hostname: "production"
     },
 
