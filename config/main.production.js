@@ -39,7 +39,7 @@ module.exports = {
     // 站点相关的配置
     site: {
         env: "production",
-        port: 3000,
+        port: 80,
         hostname: "production"
     },
 
