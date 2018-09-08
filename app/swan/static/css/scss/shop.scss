@@ -1,0 +1,108 @@
+.flex-part {
+    padding: 18px 100px 55px 100px;
+    overflow: hidden;
+    &__title {
+        font-family: Cormorant Garamond;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 32px;
+        letter-spacing: .09em;
+        line-height: 1.6em;
+        text-transform: none;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    &__content {
+        display: flex;
+        width: 100%;
+        height: auto;
+        .flex-part__item {
+            flex: 1;
+            overflow: hidden;
+        }
+    }
+}
+
+.goods {
+    .flex-conetnt {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        .goods-title {
+            opacity: .7;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.4em;
+            text-transform: none;
+            font-family: Work Sans;
+            font-weight: 300;
+            font-style: normal;
+            color: #616161;
+            text-align: center;
+        }
+        .goods-introduce {
+            margin: .1em 0 0 0;
+            color: #616161;
+            font-family: Work Sans;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 12px;
+            letter-spacing: .71px;
+            line-height: 1.5em;
+            text-transform: none;
+            text-rendering: optimizeLegibility;
+            text-align: center;
+            a {
+                color: #616161;
+            }
+        }
+        .goods-price {
+            text-align: center;
+            font-family: proxima-nova;
+            font-weight: 100;
+            font-style: normal;
+            font-size: 13px;
+            letter-spacing: .05em;
+            line-height: 2.4em;
+            text-transform: none;
+            margin: .7em 0 0 0;
+            color: #6e6e6e;
+        }
+    }
+}
+.shop-title{
+    font-family: Cormorant Garamond;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: .09em;
+    line-height: 1.6em;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    color:rgb(51,51,51);
+    margin-top:70px;
+}
+.shop-subtitle{
+    text-align: center;
+    margin-top:24px;
+    span{
+        display: inline-block;
+        margin: 0 1em 0 0;
+        padding-bottom: 1px;
+        font-family: Cormorant Garamond;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 16px;
+        letter-spacing: .1em;
+        line-height: 1.4em;
+        text-transform: none;
+        overflow: hidden;
+        color: #858585;
+        &.special{
+            color: #616161;
+        }
+    }
+}
