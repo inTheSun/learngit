@@ -54,6 +54,7 @@ body{
     padding-bottom: 50px;
     .content{
         width:565px;
+        min-width: 565px;
         height:auto;
         margin:0 auto;
     }
@@ -237,7 +238,7 @@ body{
         line-height: 1.6em;
         text-transform: none;
         text-align: center;
-        margin-bottom:22px;
+        margin-bottom:12px;
         color: #333;
         em{
             color: #575757;
@@ -250,6 +251,18 @@ body{
             text-transform: none;
             margin: 0 10px;
         }
+    }
+    &__subtitle{
+        font-family: Cormorant Garamond;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: .09em;
+        line-height: 1.6em;
+        text-transform: none;
+        text-align: center;
+        margin-bottom:22px;
+        color: #333;
     }
     &__content{
         .row{
@@ -264,7 +277,28 @@ body{
                     .inside-bg{
                         width:100%;
                         padding-bottom: 100%;
-                        background: url(../images/example_1.jpeg) no-repeat center / cover;    
+                        // background: url(../images/aboutus/1.jpeg) no-repeat center / cover;    
+                    }
+                    .inside-bg__1{
+                        background: url(../images/aboutus/1.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__2{
+                        background: url(../images/aboutus/2.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__3{
+                        background: url(../images/aboutus/3.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__4{
+                        background: url(../images/aboutus/4.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__5{
+                        background: url(../images/aboutus/5.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__6{
+                        background: url(../images/aboutus/6.jpg) no-repeat center / cover;    
+                    }
+                    .inside-bg__7{
+                        background: url(../images/aboutus/7.jpg) no-repeat center / cover;    
                     }
                     img{
                         width:100%;
@@ -272,6 +306,71 @@ body{
                 }
             }
         }
+    }
+}
+@media all and (min-width: 600px) {
+    /* Change color for backdrop */
+    // .fancybox-custom-layout .fancybox-bg {
+    //     background: #fcfaf9;
+    // }
+    // .fancybox-custom-layout.fancybox-is-open .fancybox-bg {
+    //     opacity: 1;
+    // }
+
+    /* Move caption area to the right side */
+    .fancybox-custom-layout .fancybox-caption {
+        background: #f1ecec;
+        bottom: 0;
+        left: auto;
+        padding: 30px 20px;
+        right: 44px;
+        top: 0;
+        width: 256px;
+    }
+    .fancybox-custom-layout .fancybox-caption p {
+        color:#333;
+        margin-bottom:10px;
+    }
+    .fancybox-custom-layout .fancybox-caption h3 {
+        color: #444;
+        font-size: 21px;
+        line-height: 1.3;
+        margin-bottom: 24px;
+    }
+    .fancybox-custom-layout .fancybox-caption a {
+        color: #444;
+    }
+    /* Remove gradient from caption*/
+    .fancybox-custom-layout .fancybox-caption::before {
+        display: none;
+    }
+    /* Adjust content area position */
+    .fancybox-custom-layout .fancybox-stage {
+        right: 300px;
+    }
+    /* Align buttons at the right side  */
+    .fancybox-custom-layout .fancybox-toolbar {
+        background: #3b3b45;
+        bottom: 0;
+        left: auto;
+        right: 0;
+        top: 0;
+        width: 44px;
+    }
+    /* Remove background from all buttons */
+    .fancybox-custom-layout .fancybox-button {
+        background: transparent;
+    }
+    /* Navigation arrows */
+    .fancybox-custom-layout .fancybox-navigation a {
+        padding: 0;
+    }
+    .fancybox-custom-layout .fancybox-navigation a:not(.disabled) {
+        color: #333;
+    }
+    /* Reposition right arrow */
+    .fancybox-custom-layout .fancybox-button--arrow_right {
+        right: 308px;
     }
 }
 // .footer{
