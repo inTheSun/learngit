@@ -11,12 +11,16 @@ exports.index = async function () {
     let cardList = [];
     for (let i = 0; i < randomLimit; i++) {
         var name = getName(),
-            idcard = getIdNo();
+            idcard = getIdNo(),
+            bankCard = getSingalCard(bank, bankCardType);
         //把生成的银行卡推入数组
+
         cardList.push({
             name,
             idcard,
-            ...getSingalCard(bank, bankCardType)
+            bankName: bankCard.bankName,
+            card: bankCard.card,
+            cardType: bankCard.cardType
         });
     }
 
